@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --border: 1px solid #8d99ae;
+}
+body, label, input {
+    font: 300 16px/140% 'Roboto', sans-serif;
+}
+body {
+    background-color: #202024;
+    color: #ffffff;
+}
+
+.menu{
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8338ec;
+}
+
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.cadastro{
+    max-width: 690px;
+    margin: 0 auto;
+    padding: 20px 32px;
+}
+.formulario{
+    border: var(--border);
+    border-inline: none;
+    padding: 20px 0;
+}
+
+label, input{
+    margin: 10px 0px;
+}
